@@ -1,0 +1,53 @@
+/* navbar  brand */
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold; 
+}
+
+
+/* change navigation color */
+.navbar #MyMenu .custom-nav .nav-item a{
+    color: #fff;
+    text-align-last: right;
+}
+
+
+/* change navigation Hover color */
+.navbar #MyMenu .custom-nav .nav-item a:hover{
+    color: #f0AAB1;
+}
+
+
+/* make header responsive */
+body html {
+    margin: 0;
+    padding: 0;
+}
+.back-image{
+    background-image: url('../images/pexels.jpeg');
+    
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    border-radius: 0px;
+    
+}
+
+
+/* font-family: 'Ubuntu', sans-serif; */
+
+/* change link color */
+a{
+    color: #DC3545;
+}
+footer{
+align-content: center;
+
+}
+
+.custom-nav a{
+    text-align: right;
+
+}
